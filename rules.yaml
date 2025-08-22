@@ -1,0 +1,207 @@
+rules:
+  - id: theft
+    question: "What should I do if something is stolen?"
+    keywords: ["theft", "stole", "stolen", "robbery"]
+    answer: |
+      This looks like theft. You should:
+      1. File an FIR at the nearest police station
+      2. Preserve receipts, photos, or other evidence
+      3. Consult a criminal lawyer
+    law: "Indian Penal Code Section 378 – Theft"
+
+  - id: domestic_violence
+    question: "What should I do if I face domestic violence?"
+    keywords: ["domestic", "violence", "harassment", "dowry"]
+    answer: |
+      This looks like domestic violence. You should:
+      1. If in danger, call emergency services (100)
+      2. Collect evidence like photos, medical reports, messages
+      3. Apply for a protection order through the court
+    law: "Protection of Women from Domestic Violence Act, 2005"
+
+  - id: cybercrime
+    question: "What should I do if I am a victim of cybercrime?"
+    keywords: ["cybercrime", "hacked", "phishing", "fraud", "online scam", "cyber"]
+    answer: |
+      This looks like a cybercrime case. You should:
+      1. Immediately change your passwords and secure your accounts
+      2. Collect screenshots, emails, or messages as proof
+      3. File a complaint on the National Cyber Crime Portal (cybercrime.gov.in)
+      4. Visit your nearest Cyber Crime Police Station
+    law: "Information Technology Act, 2000 and IPC Sections 66C, 66D"
+
+  - id: sexual_offence
+    question: "What should I do if I face sexual harassment or assault?"
+    keywords: ["sexual", "harassment", "molestation", "assault", "rape"]
+    answer: |
+      This looks like a sexual offence. You should:
+      1. If unsafe, call 100 immediately
+      2. Seek medical help and preserve medical/legal evidence
+      3. File an FIR at the nearest police station
+      4. Contact an NGO or women’s helpline for support
+    law: "Indian Penal Code Sections 354, 375, and Sexual Harassment of Women at Workplace Act, 2013"
+
+  - id: property_dispute
+    question: "What should I do in case of a property dispute?"
+    keywords: ["property", "land", "dispute", "encroachment", "illegal possession"]
+    answer: |
+      This looks like a property dispute. You should:
+      1. Collect documents proving ownership (sale deed, tax receipts)
+      2. Try to resolve amicably or through mediation
+      3. File a civil suit for possession or injunction if required
+      4. Consult a property lawyer for guidance
+    law: "Transfer of Property Act, 1882 and Civil Procedure Code, 1908"
+
+  - id: cheque_bounce
+    question: "What should I do if a cheque bounces?"
+    keywords: ["cheque", "bounce", "dishonour", "bank"]
+    answer: |
+      This looks like a cheque bounce case. You should:
+      1. Obtain a written memo from the bank stating the cheque was dishonoured
+      2. Send a legal notice to the issuer within 30 days
+      3. If unpaid within 15 days, file a complaint in court
+    law: "Negotiable Instruments Act, 1881 – Section 138"
+
+  - id: consumer_rights
+    question: "What should I do if I face issues as a consumer?"
+    keywords: ["consumer", "fraud", "product", "service", "complaint"]
+    answer: |
+      This looks like a consumer grievance. You should:
+      1. Keep receipts, invoices, and communication with the seller
+      2. File a complaint with the company first
+      3. If unresolved, file a case on the National Consumer Helpline (consumerhelpline.gov.in)
+      4. Approach the Consumer Disputes Redressal Commission
+    law: "Consumer Protection Act, 2019"
+
+  - id: employment_issue
+    question: "What should I do if I face issues at work (salary, termination)?"
+    keywords: ["salary", "termination", "job", "employment", "wages", "employer"]
+    answer: |
+      This looks like a workplace dispute. You should:
+      1. Collect your appointment letter, salary slips, and emails
+      2. First, raise the issue with HR or your employer
+      3. File a complaint with the Labour Commissioner if unresolved
+      4. Consult a labour law lawyer
+    law: "Industrial Disputes Act, 1947 and Payment of Wages Act, 1936"
+
+  - id: traffic_violation
+    question: "What should I do if I get a traffic fine or challan?"
+    keywords: ["traffic", "challan", "fine", "driving", "signal"]
+    answer: |
+      This looks like a traffic violation. You should:
+      1. Check challan details online (echallan.parivahan.gov.in)
+      2. Pay the fine online or at the RTO
+      3. If wrongly issued, contest it in traffic court with proof
+    law: "Motor Vehicles Act, 1988"
+
+  - id: drug_possession
+    question: "What happens if caught with illegal drugs?"
+    keywords: ["drugs", "possession", "narcotics", "ganja", "weed"]
+    answer: |
+      This is a narcotics-related offence. You should:
+      1. Understand that possession of illegal drugs is a criminal offence
+      2. Consult a criminal lawyer immediately
+      3. Cooperate with authorities but exercise your right to legal counsel
+    law: "Narcotic Drugs and Psychotropic Substances (NDPS) Act, 1985"
+
+  # --- NEW: Privacy & DPDP Act Rules ---
+  - id: data_breach_loan_app
+    question: "Someone leaked my personal data from a loan app. What legal action can I take?"
+    keywords: ["data breach", "loan app", "leak", "personal data"]
+    answer: |
+      This looks like a personal data breach. You should:
+      1. File a grievance with the app/company’s Data Protection Officer
+      2. Report the incident to the Data Protection Board of India
+      3. Seek compensation for misuse of your data
+    law: "Digital Personal Data Protection Act, 2023 – Right to grievance redressal & compensation"
+
+  - id: app_collects_data
+    question: "Is it legal for apps to collect my location and contact list without asking?"
+    keywords: ["app", "location", "contacts", "privacy", "collect"]
+    answer: |
+      Apps must take your clear consent before collecting personal data. You have the right to:
+      1. Be informed why your data is collected
+      2. Give or withdraw consent anytime
+      3. Limit collection to only what is necessary
+    law: "Digital Personal Data Protection Act, 2023 – Consent, Purpose Limitation, Data Fiduciary obligations"
+
+  - id: phishing_email
+    question: "I received a phishing email asking for my bank details. How do I report it?"
+    keywords: ["phishing", "bank", "email", "fraud"]
+    answer: |
+      This looks like phishing. You should:
+      1. Never share bank details via email
+      2. Report the email to CERT-In and cybercrime.gov.in
+      3. Forward suspicious emails to your bank’s fraud reporting team
+    law: "Information Technology Act, 2000 + CERT-In Directions"
+
+  - id: misuse_social_media
+    question: "What are my rights if a social media platform misuses my photos?"
+    keywords: ["social media", "photos", "misuse", "facebook", "instagram"]
+    answer: |
+      You have the right to digital consent and to control your data. You can:
+      1. File a complaint with the platform
+      2. Exercise your Right to be Forgotten and request removal
+      3. Report to the Data Protection Board if unresolved
+    law: "Digital Personal Data Protection Act, 2023 – Data Principal Rights"
+
+  - id: delete_personal_data
+    question: "Can I ask a company to delete my personal data under Indian law?"
+    keywords: ["delete data", "erase", "withdraw consent", "remove my data"]
+    answer: |
+      Yes, under Indian law you can:
+      1. Withdraw your consent for data use
+      2. Ask the company to erase your personal data
+      3. Escalate to the Data Protection Board if they refuse
+    law: "Digital Personal Data Protection Act, 2023 – Right to Erasure"
+
+  - id: aadhaar_leak
+    question: "What should I do if I suspect my Aadhaar details were leaked?"
+    keywords: ["aadhaar", "uidai", "leak", "personal data"]
+    answer: |
+      Aadhaar is sensitive personal data. You should:
+      1. Report the breach to UIDAI immediately
+      2. File a grievance with the Data Protection Board
+      3. Monitor your Aadhaar usage via UIDAI portal
+    law: "Aadhaar Act, 2016 + DPDP Act, 2023"
+
+  - id: employee_monitoring
+    question: "Is my employer allowed to monitor my emails and browsing history?"
+    keywords: ["employer", "monitor", "emails", "browsing", "privacy"]
+    answer: |
+      Employers can monitor for security, but there are limits. You have:
+      1. A right to reasonable privacy at work
+      2. Protection under Article 21 (Right to Privacy)
+      3. The right to challenge excessive surveillance
+    law: "Constitution of India – Article 21, DPDP Act obligations"
+
+  - id: cross_border_transfer
+    question: "Which countries can Indian companies legally send my data to?"
+    keywords: ["data transfer", "cross-border", "outside india", "foreign"]
+    answer: |
+      Indian companies can send data abroad only:
+      1. To countries approved by the Government of India
+      2. If data protection safeguards are in place
+      3. Subject to restrictions under DPDP Act notifications
+    law: "Digital Personal Data Protection Act, 2023 – Cross-border data transfer rules"
+
+  - id: website_data_safety
+    question: "How do I know if a website is collecting my data safely?"
+    keywords: ["website", "safe", "ssl", "privacy policy"]
+    answer: |
+      You should check:
+      1. Whether the site uses HTTPS/SSL (lock symbol in browser)
+      2. If there is a clear Privacy Policy
+      3. That only necessary data is collected
+    law: "Consumer Protection Act, 2019 + DPDP Act, 2023 – Transparency obligations"
+
+  - id: penalties_companies
+    question: "What are the penalties for companies that fail to protect user data?"
+    keywords: ["penalties", "fines", "company", "data breach"]
+    answer: |
+      Companies that fail to protect user data may face:
+      1. Heavy financial penalties (up to ₹250 crore)
+      2. Compliance audits and monitoring
+      3. Legal liability for harm caused
+    law: "Digital Personal Data Protection Act, 2023 + CERT-In Directions"
+
