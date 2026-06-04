@@ -1,4 +1,4 @@
-# 🔐 Cypher Guard
+# 🔐 Cypher Guard - For NLH X AI Legal Hackathon
 
 Cypher Guard is a Python-based backend security toolkit built with FastAPI. It provides multiple security-related services such as file encryption, URL safety checks, IP lookup, system security health checks, privacy policy generation, and a rule-based legal chatbot.
 
